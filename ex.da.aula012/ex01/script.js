@@ -18,7 +18,7 @@ function verificar () {
                 //criança
                 img.setAttribute('src', 'imagens/bebe-m.jpg')
 
-            } else if (idade < 21) {
+            } else if (idade < 24) {
                 //jovem
                 img.setAttribute('src', 'imagens/jovem-m.jpg')
             } else if (idade < 50) {
@@ -35,7 +35,7 @@ function verificar () {
                 //criança
                 img.setAttribute('src', 'imagens/bebe-f.jpg')
 
-            } else if (idade < 21) {
+            } else if (idade < 24) {
                 //jovem
                 img.setAttribute('src', 'imagens/jovem-f.jpg')
             } else if (idade < 50) {
