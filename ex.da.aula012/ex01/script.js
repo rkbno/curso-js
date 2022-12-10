@@ -17,7 +17,7 @@ function verificar () {
             if (idade >= 0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'imagens/bebe-m.jpg')
-
+ 0   
             } else if (idade < 24) {
                 //jovem
                 img.setAttribute('src', 'imagens/jovem-m.jpg')
