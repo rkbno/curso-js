@@ -15,15 +15,15 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
     text-align: center;
 }
-
-#msg {
-    margin: 20px;
-    font-size: 15px;
+.inicio {
+    margin-left: 10px;
+}
+.fim {
+    margin-left: 20px
 }
 
-#img {
-     width: 250px;
-     height: 250px;
+.botao {
+    font-size: 16px;
 }
 footer {
     color: white;
