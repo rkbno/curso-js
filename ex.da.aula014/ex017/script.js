@@ -1,16 +1,19 @@
 function tabuada() {
-    var num = document.querySelector('input#txtn')
-    var tab = document.querySelector('input#seltab')
+    let num = document.getElementById('txtn')
+    let tab = document.getElementById('seltab')
+    
     if (num.value.length == 0) {
         alert('Por favor, digite um número!')
     } else {
-        var n = Number(num.value)
-        var c = 1
-        while (c <= 10) {
-            var item = document.createElement('option')
-            item.text = 'n * c'
+        let n = Number(num.value)
+        tab.innerHTML = ''
+        for (let c = 1 ; c <= 10 ; c++) {
+            let item = window.document.createElement('option')
+            item.text = n + ' x ' + c + ' = ' + n*c
             tab.appendChild(item)
-            c++
+            
         }
+        
+            
     }
    }
