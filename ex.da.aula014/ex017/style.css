@@ -1,11 +1,18 @@
 body {
-    background: blueviolet;
+    background: #8a2be2;
     font: normal 15pt Arial ;
 }
 header {
     color: white;
     text-align: center;
 }
+
+.number {
+    text-align: center;
+}
+
+    
+    
 section {
     background: white;
     border-radius: 10px;
@@ -13,6 +20,7 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    
     
 }
 .inicio {
